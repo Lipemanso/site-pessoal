@@ -1,1 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
+#menu a:hover{
+    background: #e6e6e6;
+    transition: ease-in-out 0.3s;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+#sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    
+}
+
+span{
+    font-size: 22px;
+    background-color: black;
+    color: azure;
+    padding: 5px;
+}
+
+#sobre-content h2{
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    color: azure;
+}
+
+#sobre-content h2,p {
+    padding: 15px;
+}
+#sobre-foto{
+    text-align: center;
+    margin: 10px;
+}
+
+li{
+    list-style:circle;
+    padding: 5px;
+}
+
+#icones-tech{
+    display: flex;
+}
+
+#icones-tech img{
+    height: 70px;
+    padding: 10px;
+}
+#icones-social{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#icones-social img{
+    height:50px;
+}
+
+#img-perfil{
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#projetos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+
+}
+
+.projeto-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.projeto-item a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.projeto-item a:hover{
+    background: #e6e6e6;
+    transition: ease-in-out 0.3s;
+}
+
+.img-projetos{
+    height:200px;
+    width: 300px;
+    margin: 15px;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+#box-formulario{
+    text-align: center;
+    align-items: center;
+}
+
+#box-formulario h2{
+    font-size: 20px;
+    background-color: black;
+    color: azure;
+    padding: 5px;
+    
+    
+}
+#form-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin: 15px;
+}
+
+#form-contato label{
+    margin: 5px;
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#btnEnviar{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    width: 395px;
+    border: none;
+    border-radius: 5px;
+    background: #ebebeb;
+}
+
+#btnEnviar:hover{
+    background: #bdbdbd;
+    transition: 0.3s;
+}
+
+#btnTopo img{
+   position:fixed;
+   bottom:2%;
+   right:0;
+   height: 40px;
+   margin: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
 
