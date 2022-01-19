@@ -100,7 +100,6 @@ li{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    
 
 }
 
@@ -207,3 +206,119 @@ footer{
 
 
 
+@media (max-width: 360px){
+    h1{
+        display:none;
+    }
+    #menu{
+        display: flex;
+        flex-direction:row;  
+        justify-content:center;
+    }
+    #menu a{
+        text-decoration: none;
+        font-size:18px;
+        color: black;
+        padding: 5px;
+    }
+    
+    #menu a:hover{
+        background: #e6e6e6;
+        transition: ease-in-out 0.3s;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #projetos{
+        display: flex;
+        align-items: center;
+        flex-direction:column-reverse;
+    
+    }
+    
+    textarea{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+    }
+    #btnEnviar{
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        width: 295px;
+        border: none;
+        border-radius: 5px;
+        background: #ebebeb;
+    }
+
+    #btnTopo img{
+       display:none;
+     }
+
+}
+
+@media (max-width: 810px){
+    h1{
+        display:none;
+    }
+    #menu{
+        display: flex;
+        flex-direction:row;  
+        justify-content:center;
+    }
+    #menu a{
+        text-decoration: none;
+        font-size:18px;
+        color: black;
+        padding: 5px;
+    }
+    
+    #menu a:hover{
+        background: #e6e6e6;
+        transition: ease-in-out 0.3s;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #projetos{
+        display: flex;
+        align-items: center;
+        flex-direction:column-reverse;
+    
+    }
+    
+    textarea{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+    }
+    #btnEnviar{
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        width: 295px;
+        border: none;
+        border-radius: 5px;
+        background: #ebebeb;
+    }
+
+    #btnTopo img{
+        position:fixed;
+        bottom:2%;
+        right:0;
+        height: 40px;
+        margin: 20px;
+     }
+}
