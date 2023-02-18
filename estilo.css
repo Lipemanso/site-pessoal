@@ -103,31 +103,6 @@ li{
 
 }
 
-.projeto-item{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
-
-.projeto-item a{
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    padding: 5px;
-}
-
-.projeto-item a:hover{
-    background: #e6e6e6;
-    transition: ease-in-out 0.3s;
-}
-
-.img-projetos{
-    height:200px;
-    width: 300px;
-    margin: 15px;
-}
-
 #contato{
     display: flex;
     justify-content: center;
